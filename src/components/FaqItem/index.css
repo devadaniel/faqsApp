@@ -1,0 +1,47 @@
+/* Write your code here. */
+
+.list-times-container {
+  list-style-type: none;
+  border: 1px solid #d7dae6;
+  margin: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+@media screen and (max-width: 768px) {
+  .list-times-container {
+    margin-right: 50px;
+  }
+}
+
+.question-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+.question-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #52606d;
+}
+.minus-plus-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.plus-minus-image {
+  height: 20px;
+  width: 20px;
+}
+.separator {
+  color: #d7dae6;
+}
+
+.answer-text {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
